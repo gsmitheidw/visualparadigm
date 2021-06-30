@@ -8,11 +8,11 @@
 | --------------------------------------------------------- |
 | Recipe instructions:  (assumes you already have chocolatey & git installed on your admin machine) <br>
 | 1. Clone this repo  <br>
-| 2. Amend the following items: <br>
-| 
-|	* ChocolateyInstall.ps1 requires correct paths to the setup executable. These can be local repo or unc path. <br>
-|	* Either Amend ap_install_config.xml or download your own from https://ap.visual-paradigm.com/ using your credentials <br> 
-| 	* You may need to edit install_config.xml if you need to add corporate proxy information <br>  |
+ 2. Amend the following items: <br>
+ 
+	* ChocolateyInstall.ps1 requires correct paths to the setup executable. These can be local repo or unc path. <br>
+	* Either Amend ap_install_config.xml or download your own from https://ap.visual-paradigm.com/ using your credentials <br> 
+ 	* You may need to edit install_config.xml if you need to add corporate proxy information <br>  |
 | 3. Go to the folder and run choco pack, this will create a nupkg file which you host on a private repo or local unc path. |
 | Note if you need a different version to 16.3 you will need to amend visualparadigm.nuspec and run Get-FileHash against the setup executable to get a correct checksum to be added to  ChocolateyInstall.ps1 in place of the one provided |
 
