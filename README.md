@@ -4,8 +4,8 @@
 | Chocolatey package of Visual Paradigm Academic Install |
 | ------------------------------------------------------- |
 | Visual Paradigm (VP-UML) is a UML CASE Tool supporting UML 2, SysML and Business Process Modeling Notation (BPMN). |
-| This is not a nupkg but the recipe to create a Chocolatey nuget package on a private/company repo |
-| --------------------------------------------------------- |
+| This is not a nupkg but the *recipe* to create a Chocolatey nuget package on a private/company repo |
+ 
 
  Recipe instructions:  (assumes you already have chocolatey & git installed on your admin machine) <br>
  1. Clone this repo  <br>
