@@ -1,5 +1,5 @@
 ![Visual Paradigm Logo](https://cdn.rawgit.com/gsmitheidw/visualparadigm-ce/8df28b64/visualparadigm-icon.png "Visual Paradigm")
-# Visual Paradigm Community Edition
+# Visual Paradigm Academic Install Recipe
 
 | Chocolatey package of Visual Paradigm Academic Install |
 | ------------------------------------------------------- |
@@ -7,7 +7,8 @@
 | This is not a nupkg but the *recipe* to create a Chocolatey nuget package on a private/company repo |
  
 
- Recipe instructions:  (assumes you already have chocolatey & git installed on your admin machine) <br>
+## Recipe instructions: 
+(assumes you already have chocolatey & git installed on your admin machine) <br>
  1. Clone this repo  <br>
  2. Amend the following items: <br>
 
