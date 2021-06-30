@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>visualparadigm</id>
+    <version>16.3</version>
+    <title>visualparadigm (Install)</title>
+    <authors>Visual Paradigm</authors>
+    <owners>Graham Smith</owners>
+    <projectUrl>https://www.visual-paradigm.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>visual paradigm</description>
+    <summary>visual paradigm</summary>
+    <tags>visual paradigm</tags>
+  </metadata>
+</package>

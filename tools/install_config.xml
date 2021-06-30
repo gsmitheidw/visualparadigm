@@ -1,0 +1,44 @@
+<Install>
+
+	<!-- 
+    Specify the floating license server (Optional)
+    Protocol: http or https, default is http
+    Host: IP address or host name of the server
+    Port: The port Floating License Server/VP Server running on, default is 1999
+    Access Code: The access code configured on license server for acquire floating license key          
+	
+	<FloatingLicenseServer protocol="http" host="" port="1999" accessCode=""/>
+  -->
+  
+
+  <!--
+    Use Proxy: To specify the application will use proxy or not for Internet connection (i.e. online update, download of help file). Possible value: true/false
+    If userProxy="true" then you may will also need to specify the following
+      Proxy Host: The host of the Proxy Server
+      Proxy Port: The port of the Proxy Server
+      Proxy Need Login: Do you need authentication on proxy server?
+      Proxy User Name: The user name for login to the proxy server (if your proxy server require authentication)
+      Proxy Password: The password for login to the proxy server (if your proxy server require authentication)  
+  -->
+    
+  
+	<!--
+    Specify some default workspace setting (Optional)
+    Workspace Dir: The location of the workspace folder. * Note that the Select Workspace dialog will still show up during application starts.  
+    User Language: The language of user interface. Possible value: English, German, Polish, Spanish, French, Czech, Traditional Chinese, Simplified Chinese, Japanese, Korean. 
+                   Default is English   
+	-->
+	<!-- 
+	<WorkspaceSetting
+			workspaceDir=""
+			userLanguage="English"
+	/>
+	 -->
+   <!--
+     Specify the URL of Internal Update Server, supported since version 13.2 
+   -->
+   <!--
+   <UpdateServer internalUpdateServer="">
+   -->
+</Install>	 
+	 	 
